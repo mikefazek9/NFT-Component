@@ -1,0 +1,87 @@
+html{
+    background-color: hsl(228, 56%, 31%);
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nft-container, .overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(228, 56%, 18%);
+    width: 40%;
+    height: auto;
+    padding-bottom: 1rem;
+    margin: 3.5rem auto;
+    border-radius: 10px;
+    box-shadow:7px 7px 7px hsla(228, 57%, 18%, 0.60);
+}
+
+.nft-image-content{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.image-responsive{
+    width: 60%;
+    margin: 1rem auto;
+    border-radius: 10px;
+}
+
+.header-text{
+    font-size: 1.8rem;
+}
+
+.text{
+    font-size: 1.2rem;
+}
+
+.value-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.row{
+    padding: 0 3rem 0 3rem;
+}
+
+.valueText, .daysText{
+    padding: 0 0.5rem;
+}
+
+.creation-content{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+.creationText{
+    padding: 0 0.5rem;
+}
+.avatar-img{
+    width: 20%;
+}
+
+.attribution{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+a{
+text-decoration: none;
+color: #fff;
+}
+
+a:hover{
+    color: rgb(197, 197, 197);
+}
